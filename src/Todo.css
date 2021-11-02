@@ -1,0 +1,79 @@
+.todo-area{
+    width: calc(90% - 40px);
+    height: 80vh;
+    margin: auto auto;
+    max-width: 800px;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.todo-area h1{
+    font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    color: #818181;
+}
+
+.lists-area{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    -webkit-align-content: stretch;
+  }
+  
+  .list-box{
+    padding: 10px;
+    width: inherit;
+    background: #f1f1f1;
+    margin: 0px 10px;
+    border-radius: 10px;
+  }
+  
+  .list-box:first-child{
+    margin-left: 0px;
+  }
+  
+  .list-box:last-child{
+    margin-right: 0px;
+  }
+
+  .list-box h1{
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    color: #777777;
+}
+
+.list-option{
+    width: 90%;
+    margin:8px auto;
+    height: auto;
+    background: #ffffff;
+    border: 4px;
+}
+
+.list-option:first-child{
+    margin-top: 0px;
+}
+
+.list-option:last-child{
+    margin-bottom: 0px;
+}
+
+.list-option p{
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #888888;
+    text-align: center;
+    padding: 10px;
+}
+  
